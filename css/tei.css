@@ -1,0 +1,82 @@
+body {
+font-size: 14pts;
+font-family: 'Times New Roman', Times, serif;
+margin: 0.5cm;
+}
+
+
+tei-del{
+text-decoration:
+line-through
+color: red
+display: block
+
+}
+
+tei- add {
+    color: green;
+
+}
+
+tei-abrr {
+    display: none;
+
+}
+
+tei-orig {
+    display :none;
+
+}
+
+tei-pc {
+    display: none; 
+
+}
+
+tei-opener {
+    dsipla:block;
+    border:1pt
+    boder-style:ridge;
+    border-color:blueviolet; */
+
+}
+
+tei-div{
+    margin-top: 16pt;
+    display: block;
+    margin: bottom 14pt;
+    /* border: 1pt;
+    border-style: dotted;
+    border-color:orange */
+
+}
+
+tei-closer{ 
+    display:block;
+
+}
+
+tei-signed{
+font-style: italic;
+color: crimson;
+
+}
+
+tei-figdesc{
+font-size: italic;
+display: block;
+text-align: center;
+
+}
+
+tei-graphic{
+    display:block;
+    text-align: center;
+    
+}
+
+tei-lb ::before{
+    content: attr(n);
+font-size: x-small
+color:gray;
+}
